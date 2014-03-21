@@ -1,5 +1,5 @@
 Chippy::Application.routes.draw do
-  resources :authentications
+  resources :authentications, :defaults => { :format => :json }
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
